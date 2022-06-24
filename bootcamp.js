@@ -39,7 +39,7 @@ function showPerson(person){
     const item = testimonials[person];
     img.src = item.img;
     author.textContent = item.name;
-    job.textContentn= item.job;
+    job.textContent = item.job;
     info.textContent = item.text;
 };
 
